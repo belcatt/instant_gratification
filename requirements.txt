@@ -1,0 +1,5 @@
+fastapi   # instead of Django or Flask
+uvicorn   # local dev server paired with FastAPI apps
+markdown
+
+ 

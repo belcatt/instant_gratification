@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "week3.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "week3.py"
+    }
+  ]
+}
+
